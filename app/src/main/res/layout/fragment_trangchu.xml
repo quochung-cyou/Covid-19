@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#473F97">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cardView3"
+        app:layout_constraintTop_toTopOf="@+id/cardView3"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9059ff">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Nghiêm trọng"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nghiemtrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/graphiksemibold"
+                android:text="Đang tải"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4trangchu"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2trangchu"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#43d97b">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Hồi phục"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/tongsohoiphucsoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/graphiksemibold"
+                android:text="Đang tải"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2trangchu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cardView2trangchu"
+        app:layout_constraintTop_toTopOf="@+id/cardView2trangchu"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff5959">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Tử vong"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/tongsochetsoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/graphiksemibold"
+                android:text="Đang tải"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/graphikmedium"
+        android:text="Thông tin toàn cầu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2trangchu"
+        android:layout_marginLeft="16dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2trangchu"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="80dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView4trangchu"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffb259">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Số ca nhiễm"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/tongsocasoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/graphiksemibold"
+                android:text="Đang tải"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView4trangchu"
+        app:layout_constraintEnd_toStartOf="@+id/cardView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cardView4trangchu"
+        app:layout_constraintTop_toTopOf="@+id/cardView4trangchu">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4db5ff">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Số ca hoạt động"
+                android:textColor="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/activecase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/graphiksemibold"
+                android:text="Đang tải"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewbelowtrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cardView4trangchu">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="75dp">
+            <TextView
+                android:id="@+id/phongtranh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Phòng tránh"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/khongtiepxucgan"
+                android:layout_marginLeft="16dp" />
+
+            <ImageView
+                android:id="@+id/khongtiepxucgan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/ruataythuongxuyen"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phongtranh"
+                app:srcCompat="@drawable/ic_prevention1" />
+
+            <ImageView
+                android:id="@+id/ruataythuongxuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/khongtiepxucgan"
+                app:layout_constraintEnd_toStartOf="@+id/deokhautrang"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/khongtiepxucgan"
+                app:layout_constraintTop_toTopOf="@+id/khongtiepxucgan"
+                app:srcCompat="@drawable/ic_prevention2" />
+
+            <ImageView
+                android:id="@+id/deokhautrang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/ruataythuongxuyen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/ruataythuongxuyen"
+                app:layout_constraintTop_toTopOf="@+id/ruataythuongxuyen"
+                app:srcCompat="@drawable/ic_prevention3" />
+
+            <TextView
+                android:id="@+id/deokhautrangt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Không tiếp xúc\ngần"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/khongtiepxucgan"
+                app:layout_constraintStart_toStartOf="@+id/khongtiepxucgan"
+                app:layout_constraintTop_toBottomOf="@+id/khongtiepxucgan"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/ruataythuongxuyent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Rửa tay\nthường xuyên"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                app:layout_constraintEnd_toEndOf="@+id/ruataythuongxuyen"
+                app:layout_constraintStart_toStartOf="@+id/ruataythuongxuyen"
+                app:layout_constraintTop_toBottomOf="@+id/ruataythuongxuyen"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+                android:id="@+id/deokhautrangtrangchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/graphikmedium"
+                android:text="Đeo khẩu trang\nkhi ra ngoài"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                app:layout_constraintEnd_toEndOf="@+id/deokhautrang"
+                app:layout_constraintStart_toStartOf="@+id/deokhautrang"
+                app:layout_constraintTop_toBottomOf="@+id/deokhautrang"
+                android:gravity="center_horizontal" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewbelowtrangchu1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFFFFF"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/cardViewbelowtrangchu"></androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

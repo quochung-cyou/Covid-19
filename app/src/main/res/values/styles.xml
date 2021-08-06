@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">#0D8E53</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NewsBrowserTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NewsBrowserToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="Header2" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/header2</item>
+    </style>
+
+    <style name="Header3" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/header3</item>
+    </style>
+
+    <style name="Paragraph1" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph1</item>
+    </style>
+
+    <style name="Paragraph1Medium" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/paragraph1</item>
+    </style>
+
+    <style name="Paragraph2" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph2</item>
+    </style>
+
+    <style name="Paragraph2Medium" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/paragraph2</item>
+    </style>
+
+    <style name="Paragraph3" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph3</item>
+    </style>
+
+    <style name="Paragraph3Medium" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/paragraph3</item>
+    </style>
+
+    <style name="Paragraph4" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph4</item>
+    </style>
+
+    <style name="Paragraph4Medium" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/paragraph4</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/selector_primary_button</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
