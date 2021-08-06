@@ -9,8 +9,10 @@ Các chức năng	Thông tin
 Link CH Play: Đang cập nhật
 
 
-
-
+![alt text](https://quochung.cyou/wp-content/uploads/2021/07/1.jpg)
+![alt text](https://quochung.cyou/wp-content/uploads/2021/07/2.jpg)
+![alt text](https://quochung.cyou/wp-content/uploads/2021/07/3.jpg)
+![alt text](https://quochung.cyou/wp-content/uploads/2021/07/4.jpg)
 
 
 Website: https://quochung.cyou/projects/thong-tin-covid-19/
