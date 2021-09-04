@@ -1,12 +1,20 @@
-Ứng dụng cập nhật tình hình, thông tin về dịch bệnh Covid-19
+Application to update the situation and information about the Covid-19 epidemic
 
 
-Các chức năng	Thông tin
+Info Functions
 
-+ Dữ liệu covid-19 của thế giới, tổng số ca, số ca hoạt động, nhiêm trọng, tử vong
-+ Dữ liệu covid-19 tại việt nam, tổng số ca, số ca tử vong, hồi phục, số ca mới
-+ Tự động lấy tin tức, bài báo mới về dịch bệnh để dễ dàng cập nhật
-Link CH Play: Đang cập nhật
++ World covid-19 data, total cases, active cases, severity, deaths
++ Covid-19 data in Vietnam, total cases, deaths, recoveries, new cases
++ Automatically get news, new articles about the epidemic for easy updating
+
+
+What i learned:
++ Retrofit
++ NewsAPI
++ RecyclerView to display new, webview, ...
++ Make loading splash screen, ...
+
+
 
 
 ![alt text](https://quochung.cyou/wp-content/uploads/2021/07/1.jpg)
